@@ -1,8 +1,6 @@
 
 saldo = 200.0
 
-senha = input("Digite a senha para acessar o caixa eletronico: ")
-
 while True:
     print("1. Consultar saldo")
     print("2. Depositar dinheiro")
@@ -24,4 +22,5 @@ while True:
     elif opcao == "4":
         break
     else:
+
         print("Opção invalida. ")
